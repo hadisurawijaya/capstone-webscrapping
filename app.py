@@ -52,7 +52,7 @@ def index():
 	card_data = f'{data["rate"].mean().round(2)}' #be careful with the " and ' 
 
 	# generate plot
-	ax = data.plot(figsize = (20,9)) 
+	ax = data.plot(figsize = (15,9)) 
 	
 	# Rendering plot
 	# Do not change this
